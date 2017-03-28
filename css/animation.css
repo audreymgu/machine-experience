@@ -1,0 +1,37 @@
+@-webkit-keyframes fade-out{
+    from{
+        opacity:1;
+        top:0px;
+    }
+    to{
+        opacity:0;
+        top:-10px;
+    }
+}
+
+@-webkit-keyframes fade-in{
+    from{
+        opacity:0;
+        top:10px;
+    }
+    to{
+        opacity:1;
+        top:0px;
+    }
+}
+
+.fade-out {
+    position:relative;
+    top:0px;
+    -webkit-animation:fade-out 1s 1;
+}
+
+.fade-in {
+    position:relative;
+    top:0px;
+    -webkit-animation:fade-in 1s 1;
+}
+
+.hidden {
+    display:none;
+}

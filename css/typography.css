@@ -1,0 +1,39 @@
+
+body {
+	font-family: "Adobe Garamond Pro", Garamond, Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	color: black;
+}
+
+h1 {
+	font-size: 70px;
+	line-height: 1.2em;
+	position:relative;
+    top:0px;
+    -webkit-animation:fade-in 1s 1;
+}
+
+
+button {
+	margin-right: auto;
+	margin-left: auto;
+	display:block;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	border: 0px;
+	padding-top: 6px;
+	background-color: black;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.anchor {
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 8px;
+}
