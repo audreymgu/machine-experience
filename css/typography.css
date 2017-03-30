@@ -7,11 +7,11 @@ body {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 40px;
 	line-height: 1.2em;
 	position:relative;
-    top:0px;
-    -webkit-animation:fade-in 1s 1;
+  top:0px;
+  -webkit-animation:fade-in 1s 1;
 }
 
 
@@ -33,7 +33,9 @@ a {
 }
 
 .anchor {
-	font-size: 30px;
+  font-family: helvetica;
+	font-size: 10px;
 	font-weight: bold;
-	letter-spacing: 8px;
+	letter-spacing: 0px;
+	color: #AAAAAA;
 }
