@@ -4,9 +4,8 @@
 	on this rule in order to draw boxes around DIVs
 	and other elements used for layout. */
 
-/*
-div, main, article, section, aside, 
-hgroup, header, footer, address, nav {
+
+/* div {
 	border: 1px solid rgba(255,0,0,0.15) !important;
 	background: rgba(255,0,0,0.05) !important;		
 }
@@ -33,6 +32,17 @@ hgroup, header, footer, address, nav {
 	margin-top: 3em;
 }
 
-.text {
+.bottom {
+  margin-top: 10em;
+  margin-bottom: 0em;
+}
+
+.middle {
 	margin-top: 2em;
+}
+
+#countup p {
+display: inline-block;
+padding: 0px;
+margin: 0 0 0px;
 }
