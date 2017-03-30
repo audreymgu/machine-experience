@@ -27,13 +27,13 @@ button {
 	width: 60px;
 	border-radius: 50%;
 	border: 0px;
-	padding-top: 6px;
+	padding-top: 1px;
 	background-color: black;
 }
 
 button.start {
 	background-color: white;
-	color: white;
+	color: gray;
 }
 
 a.start {
@@ -41,6 +41,9 @@ a.start {
 	color: white;
 }
 
+a.link {
+  color: #AAAAAA;
+}
 a {
 	text-decoration: none;
 	color: black;
