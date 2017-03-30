@@ -6,10 +6,12 @@ function delayedHide() {
 
 function hideObject() {
 	$("h1").addClass("hidden");
+	$("p").addClass("hidden");
 }
 
 function fadeOut() {
 	$("h1").addClass("fade-out");
+	$("p").addClass("fade-out");
 }
 
 $('a').click(function (e) {
@@ -50,3 +52,11 @@ function upTime(countTo) {
   clearTimeout(upTime.to);
   upTime.to=setTimeout(function(){ upTime(countTo); },1000);
 }
+
+var audio = document.getElementById('init');
+
+function redirectHandler() {
+  window.location = 'landing.html';
+}
+
+audio.addEventListener('ended', redirectHandler, false);

@@ -18,6 +18,11 @@
 .backdrop {
 	background-color: white;
 }
+
+.audiocurtain {
+	background-color: black;
+	color: white;
+}
 .container {
 	margin-top: 1em;
 	margin-right: auto;
