@@ -11,12 +11,10 @@ h1 {
 	line-height: 1.2em;
 	position:relative;
   top:0px;
-  -webkit-animation:fade-in 1s 1;
 }
 
 p {
 	position:relative;
-	-webkit-animation:fade-in 1s 1;
 }
 
 button {

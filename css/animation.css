@@ -1,4 +1,4 @@
-s@-webkit-keyframes fade-out{
+@-webkit-keyframes fade-out{
     from{
         opacity:1;
         top:0px;

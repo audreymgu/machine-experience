@@ -7,6 +7,7 @@ window.onload=function() {
   // Month,Day,Year,Hour,Minute,Second
   upTime('mar,29,2017,12:49:06'); // ****** Change this line!
 }
+
 function upTime(countTo) {
   now = new Date();
   countTo = new Date(countTo);
@@ -36,4 +37,19 @@ audio.addEventListener('ended', redirectHandler, false);
 
 function play(){
 	audio.play();
+}
+
+var timeoutID;
+
+function delayedHide() {
+	timeoutID = window.setTimeout(hideObject, 1000);
+}
+
+function hideObject() {
+	$("h1").addClass("hidden");
+}
+
+function fadeOut() {
+	$("h1").removeClass("fade-in");
+	$("h1").addClass("fade-out");
 }
