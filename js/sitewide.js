@@ -60,3 +60,7 @@ function redirectHandler() {
 }
 
 audio.addEventListener('ended', redirectHandler, false);
+
+function play(){
+	audio.play();
+}
