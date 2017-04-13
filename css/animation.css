@@ -20,10 +20,25 @@
     }
 }
 
+@-webkit-keyframes blink{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
 .fade-out {
     position:relative;
     top:0px;
     -webkit-animation:fade-out 1s 1;
+}
+
+.fade-out-repeat {
+    position:relative;
+    top:0px;
+    -webkit-animation:blink 1s infinite;
 }
 
 .fade-in {

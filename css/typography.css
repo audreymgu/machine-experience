@@ -42,12 +42,21 @@ a.start {
 a.link {
   color: #AAAAAA;
 }
+
 a {
 	text-decoration: none;
 	color: black;
 }
 
 .anchor {
+  font-family: helvetica;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 0px;
+	color: #AAAAAA;
+}
+
+.anchorsub {
   font-family: helvetica;
 	font-size: 10px;
 	font-weight: bold;
